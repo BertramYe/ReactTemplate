@@ -2,9 +2,6 @@
 
 this is an template of the react project
 
-
-
-
 # Commend
 
 ```bash
