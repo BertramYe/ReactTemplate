@@ -20,7 +20,7 @@ instance.interceptors.request.use(
 
 instance.interceptors.response.use(
   response => {
-    const data = response.data || {}
+    const data = response.data ?? {}
 
     if (response.status !== 200) {
       return Promise.reject(new Error(data.msg ?? 'there were error for the server, have a try later please'))
