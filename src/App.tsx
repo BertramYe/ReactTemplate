@@ -6,11 +6,7 @@ import router from '@/routers';
 const App: React.FunctionComponent = () => {
   return (
     <ErrorBoundary>
-      <React.Suspense
-        fallback={(
-          <Transition/>
-        )}
-      >
+      <React.Suspense fallback={<Transition/>}>
         <RouterProvider router={router} />
       </React.Suspense>
     </ErrorBoundary>
