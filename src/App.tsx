@@ -1,7 +1,8 @@
 import React from 'react'
-import ErrorBoundary from 'src/components/ErrorBoundary'
-import Transition from 'src/components/Transition'
-import HomePage from 'src/pages/Home'
+import ErrorBoundary from '@/components/ErrorBoundary'
+import Transition from '@/components/Transition'
+import { RouterProvider } from "react-router-dom";
+import router from '@/routers';
 const App: React.FunctionComponent = () => {
   return (
     <ErrorBoundary>
@@ -10,7 +11,7 @@ const App: React.FunctionComponent = () => {
           <Transition/>
         )}
       >
-       <HomePage />
+        <RouterProvider router={router} />
       </React.Suspense>
     </ErrorBoundary>
   )

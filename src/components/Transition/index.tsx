@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from './main.module.scss'
+import Styles from './index.module.scss'
 
 const Transition: React.FunctionComponent = () => (
   <div className={Styles.transition}>

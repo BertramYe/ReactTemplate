@@ -8,7 +8,7 @@
     "skipLibCheck": true,
     "baseUrl": "./",
     "paths": {
-      "src": ["src"]
+      "@/*": ["src/*"]  // 将 @ 映射到 src 目录
     },
 
     /* Bundler mode */

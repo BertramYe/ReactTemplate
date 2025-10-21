@@ -24,3 +24,9 @@ export const removeEmptyObjectElement = (obj: TObject) => {
 }
 
 
+export const  classNames = (...classNameList:( CSSModuleClasses | string | undefined)[]) => {
+    // filter(Boolean) remove all fake value from the array（falsy values）, includig undefined、null、false、0、NaN and empty string ""。
+    const prefilterClassName = classNameList.filter(Boolean).join(" ")
+    // const combined_classname = classNameList.filter(Boolean).reverse().join(" ");
+    return ` ${prefilterClassName} `;
+}

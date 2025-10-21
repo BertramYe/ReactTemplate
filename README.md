@@ -7,7 +7,7 @@ this is an template of the react project
 ```bash
 
 # 1. installation
-$ npm i
+$ npm i --force
 
 # 2. start project
 $ npm run dev    # use `.env.development` enviroment files 
