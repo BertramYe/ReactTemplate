@@ -27,7 +27,7 @@ const HomePage = () => {
     return (
         <div className={Styles.container}>
             <h1>ReactTemplate</h1>
-            <img src={Logo} alt="TauriReactTemplate" />
+            <img src={Logo} alt="ReactTemplate" />
             <input className={Styles.input} type="text" placeholder="please input your name" onChange={(e) => setName(e.currentTarget.value)}/>
             <button className={Styles.button}  onClick={()=>buttonClick()}> greet </button>
         </div>
