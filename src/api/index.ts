@@ -1,13 +1,11 @@
 import { API_LIST } from './urls';
 import Requester from './request';
 
-interface GetTableData {
- test_data:string
-}
 
 
+//  requst Demo
 const Api = {
-  async getTestData(param: GetTableData) {
+  async getTestData(param: TObject | FormData) {
     const result = await Requester.get(API_LIST.GET_TEST, param)
 
     return result
