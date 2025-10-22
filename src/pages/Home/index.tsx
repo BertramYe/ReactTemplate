@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import useMessager from "@/hooks/useMessager";
+import { useMessager } from "@/hooks";
 import Styles from './index.module.scss'
 import Logo from '@/asset/image/logo.ico'
 
