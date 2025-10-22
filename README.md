@@ -1,6 +1,10 @@
 # Description
 
-this is an template of the react project
+this is an template of the react project basecode
+
+with the `React 19`,`TypeScript` and  `vite 7` , also to fast the compile, 
+
+have enable the `rollup`
 
 # Commend
 
