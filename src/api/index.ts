@@ -7,7 +7,6 @@ import Requester from './request';
 const Api = {
   async getTestData(param: TObject | FormData) {
     const result = await Requester.get(API_LIST.GET_TEST, param)
-
     return result
   }
 }
