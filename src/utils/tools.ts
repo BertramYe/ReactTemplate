@@ -1,5 +1,3 @@
-export const emptyObject: TObject = {}
-
 export const isEmpty = (value: any) => ['undefined', 'null', 'NaN', ''].includes(String(value)) && !Array.isArray(value)
 
 export const removeEmptyArrayElement = (arr: any[]) => {
