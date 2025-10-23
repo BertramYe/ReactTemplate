@@ -23,7 +23,6 @@ const HomePage = () => {
         }
     }
 
-
     return (
         <div className={Styles.container}>
             <h1>ReactTemplate</h1>

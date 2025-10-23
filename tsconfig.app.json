@@ -21,11 +21,12 @@
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
+    // "noUnusedLocals": true,
+    "noUnusedLocals": false,   // trun off the unsaged the vars checking but just let the eslint to check it
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
   },
   "include": [
     "src",
