@@ -1,14 +1,20 @@
-import { API_LIST } from './urls';
-import Requester from './request';
+import { API_LIST } from '@/api/urls';
+import Requester from '@/api/request';
+import { UserProfileSchema} from '@/api/schemas';
+import { asyncPool } from '@/utils/parall_tasks_handler';
+import {type TState} from '@/hooks'
 
-
-
-//  requst Demo
+// requst Demo
 const Api = {
-  async getTestData(param: TObject | FormData) {
-    const result = await Requester.get(API_LIST.GET_TEST, param)
+  async getLeads(_pre:TState,params:TObject | FormData) {
+    const result = await Requester.post(API_LIST.GET_USER, params,true,UserProfileSchema)
     return result
-  }
+  },
+
 }
 
 export default Api
+
+
+
+
