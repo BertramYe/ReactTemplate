@@ -1,7 +1,7 @@
 
 import { classNames } from '@/utils/tools'
-import Styles from './index.module.scss'
 import type {HTMLAttributes, RefAttributes} from  'react'
+import Styles from './index.module.scss'
 
 
 type TTable = RefAttributes<HTMLTableElement> & HTMLAttributes<HTMLTableElement> & {

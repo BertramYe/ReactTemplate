@@ -1,8 +1,8 @@
 import Container  from "@/components/Base/Container";
 import Input,{type TInput} from "@/components/Base/Input";
-import Styles from './index.module.scss'
 import { classNames } from "@/utils/tools";
 import type { DOMAttributes } from "react";
+import Styles from './index.module.scss'
 
 type TOption = {
     key:string,

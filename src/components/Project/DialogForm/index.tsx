@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Button,{ type TButton} from "@/components/Base/Button"
 import Form,{ type TForm } from "@/components/Base/Form";
-import Styles from './index.module.scss';
 import { useActionState,type IAction,type TState } from "@/hooks";
 import DialogBtn,{type TDialogBtn} from "@/components/Project/DialogBtn";
 import Container from "@/components/Base/Container";
+import Styles from './index.module.scss';
 
 type TDialogForm = Omit<TDialogBtn, 'children'> & {
     actionFn?:IAction<FormData>

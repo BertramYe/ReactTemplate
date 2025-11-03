@@ -1,6 +1,6 @@
 import { classNames } from '@/utils/tools'
-import Styles from './index.module.scss'
 import type { InputHTMLAttributes, RefAttributes } from 'react'
+import Styles from './index.module.scss';
 
 type TInput = RefAttributes<HTMLInputElement> & InputHTMLAttributes<HTMLInputElement> & {
 }

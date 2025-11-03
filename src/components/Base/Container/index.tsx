@@ -1,8 +1,8 @@
 
 
 import { classNames } from '@/utils/tools'
-import Styles from './index.module.scss'
 import { type HTMLAttributes, type RefAttributes } from 'react'
+import Styles from './index.module.scss';
 
 type TContainer = RefAttributes<HTMLDivElement> & HTMLAttributes<HTMLDivElement> &  {
 

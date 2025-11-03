@@ -1,6 +1,6 @@
 import type { OptionHTMLAttributes } from "react"
-import Styles from './index.module.scss'
 import { classNames } from '@/utils/tools'
+import Styles from './index.module.scss'
 
 type TOption = OptionHTMLAttributes<HTMLOptionElement> & {
 

@@ -1,6 +1,6 @@
-import Styles from './index.module.scss'
 import { classNames } from '@/utils/tools'
 import { useRef, type HTMLAttributes } from 'react'
+import Styles from './index.module.scss';
 
 
 type TDialog = HTMLAttributes<HTMLDialogElement> & {
